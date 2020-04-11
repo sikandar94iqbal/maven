@@ -19,6 +19,14 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>7fd810ce54fc-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
