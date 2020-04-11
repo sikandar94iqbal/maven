@@ -23,7 +23,7 @@
     <snapshotRepository>
         <id>snapshots</id>
         <name>7fd810ce54fc-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+        <url>http://192.168.0.102:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
